@@ -5,8 +5,6 @@ def my_each(array)
     yield(array[i])
     i = i + 1
 end
-my_each(list) {|i| puts "So I think #{i} is a piece of shit"}
-
 end
 
 def hello(array)
