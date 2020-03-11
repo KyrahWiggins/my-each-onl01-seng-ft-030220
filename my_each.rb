@@ -5,7 +5,7 @@ def my_each(array)
     yield(array[i])
     i = i + 1
 end
-
+puts my_each(list)
 end
 def hello(array)
   i = 0
