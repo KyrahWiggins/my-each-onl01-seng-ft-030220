@@ -6,7 +6,7 @@ def my_each(array)
     i = i + 1
 end
 my_each(list)
-
+end
 def hello(array)
   i = 0
   collection = []
