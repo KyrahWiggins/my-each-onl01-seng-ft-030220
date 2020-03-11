@@ -6,7 +6,7 @@ def my_each(array)
     yield(array[i])
     i = i + 1
 end
-my_each(tas) do |ta|
+my_each.each
 end
 
 def hello(array)
